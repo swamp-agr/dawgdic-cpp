@@ -205,7 +205,7 @@ class DawgBuilder {
       BaseType unfixed_index = unfixed_units_.top();
       unfixed_units_.pop();
 
-      if (num_of_states_ >= hash_table_.size() - (hash_table_.size() >> 2)) {
+      if (num_of_states_ >= hash_table_.size() - (hash_table_.size() >> 1)) {
         ExpandHashTable();
       }
 
