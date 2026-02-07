@@ -32,4 +32,4 @@ DAWG はトライ（Trie）の共通部分木を併合したグラフ構造で�
   - [Interface](doc/ja/Interface.md): クラスのインタフェースに関するドキュメントです．
 - Related projects
   - Python ラッパーです．(https://github.com/kmike/DAWG)
-
+  - Haskell 移植されたライブラリ (https://github.com/swamp-agr/dawgdic)
